@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #926239;
+  line-height: 1.6;
+}
+
+/* Showcase Image */
+#showcase {
+  height: 100vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.showcase-image {
+  position: absolute;
+  background-image: url(../img/beach-sunset.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #926239;
+  border: #926239 1px solid;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+#showcase .button:hover {
+  background-color: #926239;
+  color: #fff;
+}
+
+/* Section-a */
+#section-a {
+  padding: 20px;
+  background-color: #926239;
+  color: #fff;
+  text-align: center;
+}
+
+/* Section-b */
+#section-b {
+  padding: 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* Section-c */
+#section-c {
+  display: flex;
+}
+
+#section-c div {
+  padding: 20px;
+}
+
+#section-c .box-1,
+#section-c .box-3 {
+  background-color: #926239;
+  color: #fff;
+}
+
+#section-c .box-2 {
+  background-color: #f9f9f9;
+}
