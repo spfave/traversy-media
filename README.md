@@ -4,3 +4,4 @@
 
 ## **Projects**
 [Fullscreen Landing Page](./landing_page)
+[Parallax Website](./parallax_website)
