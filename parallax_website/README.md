@@ -5,4 +5,4 @@
 Demonstration implementing a fixed scroll or simple parallax effect on a website using HTML and CSS. End result is that images stay in place while scrolling on large display screens and revert to a fixed scroll on small displays using a media query. 
 
 ## **Project Demo**
-![Site demo image](./img/site-demo-image.png)
+![Site demo gif](./img/demo_fixed_scroll_website.gif)
