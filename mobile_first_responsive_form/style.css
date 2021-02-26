@@ -18,7 +18,7 @@ ul {
 
 /* Utility Classes */
 .container {
-  max-width: 1170px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 1em;
 }
@@ -50,6 +50,10 @@ ul {
 .company-info ul {
   text-align: center;
   margin: 0 0 1rem 0;
+}
+
+.company-info ul i {
+  width: 20px;
 }
 
 /* Contact Form */
@@ -106,6 +110,10 @@ ul {
 
 /* Media Query */
 @media screen and (min-width: 700px) {
+  body {
+    padding: 1em 2em;
+  }
+
   .brand,
   .company-info h3,
   .company-info ul {
