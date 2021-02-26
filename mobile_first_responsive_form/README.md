@@ -7,4 +7,4 @@ Demonstrative mobile first responsive design for a web form using HTML and CSS. 
 Currently only implements front-end UI. 
 
 ## **Project Demo**
-<!-- ![Site demo photo]() -->
+![Site demo photo](./assets/demo_form_animation.gif)
