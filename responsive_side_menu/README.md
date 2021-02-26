@@ -1,4 +1,4 @@
-# **Fullscreen Video Background with HTML and CSS**
+# **Responsive HTML & CSS Side Menu**
 > [Youtube Walkthrough](https://www.youtube.com/watch?v=wpGNFGqNfdU&list=WL&index=3&t=1175s)
 
 ## **Description**

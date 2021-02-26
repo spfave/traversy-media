@@ -1,4 +1,4 @@
-# **Fullscreen Video Background with HTML and CSS**
+# **Mobile First Responsive Contact Form Featuring Grid CSS**
 > [Youtube Walkthrough](https://www.youtube.com/watch?v=Sb5qOa3R4hY&list=WL&index=3)
 
 ## **Description**
@@ -7,4 +7,4 @@ Demonstrative mobile first responsive design for a web form using HTML and CSS. 
 Currently only implements front-end UI. 
 
 ## **Project Demo**
-![Site demo photo](./assets/demo_form_animation.gif)
+![Site demo gif](./assets/demo_form_animation.gif)
