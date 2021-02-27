@@ -7,4 +7,5 @@
 [Fixed Scroll Website](./parallax_website) \
 [Video Background](./video_background_website) \
 [Responsive Side Menu](./responsive_side_menu) \ 
-[Mobile First Responsive Contact Form](./mobile_first_responsive_form)
+[Mobile First Responsive Contact Form](./mobile_first_responsive_form) \ 
+[Landing Page with Blur Effect](./landing_page_blur_effect)
