@@ -8,4 +8,4 @@ Demonstration of a website landing page with a fullscreen image that scales with
 - Change background image opacity without affecting overlaid text: [team tree house](https://teamtreehouse.com/community/backgroundimage-opacity#:~:text=There%20is%20no%20css%20property%20for%20changing%20the,alot%20of%20different%20ways%20but%20here%27s%20two%20approaches%3A)
 
 ## **Project Demo**
-![Site demo image](./img/demo-landing-page.png)
+![Site demo image](./img/demo-landing-page.jpg)
