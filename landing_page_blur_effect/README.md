@@ -13,4 +13,4 @@ Connections
 - Font Awesome
 
 ## **Project Demo**
-<!-- ![Site demo photo](./) -->
+![Site demo gif](./img/demo_website_blur.gif)
