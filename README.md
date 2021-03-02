@@ -13,5 +13,5 @@ Interaction (HTML and CSS)
 - [Responsive Side Menu](./responsive_side_menu)
 - [Mobile First Responsive Contact Form](./mobile_first_responsive_form)
 
-(HTML, CSS, and JS)
+Interaction (HTML, CSS, and JS)
 - [Full Screen Image Slider](./full_screen_image_slider)
