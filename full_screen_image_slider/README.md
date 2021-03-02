@@ -10,4 +10,4 @@ Technologies
 Connections
 
 ## **Project Demo**
-![Image slider demo gif](./img/)
+![Image slider demo gif](./img/demo_image_slider.gif)
