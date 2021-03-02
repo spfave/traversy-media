@@ -6,10 +6,13 @@ let current = 0;
 // Clear all images
 const reset = function () {
   sliderImages.forEach((slide) => {
-    console.log(slide);
-
     slide.style.display = "none";
   });
+};
+
+// Clear current image
+const resetSlide = function () {
+  sliderImages[current].style.display = "none";
 };
 
 // Initialize slider
@@ -20,31 +23,29 @@ const startSlide = function () {
 
 // Show previous
 const slideLeft = function () {
-  reset();
-  sliderImages[current - 1].style.display = "block";
-  current--;
+  sliderImages[current].style.display = "none";
+  if (current === 0) {
+    current = sliderImages.length;
+  }
+  sliderImages[--current].style.display = "block";
 };
 
 // Show next
 const slideRight = function () {
-  reset();
-  sliderImages[current + 1].style.display = "block";
-  current++;
+  resetSlide();
+  if (current === sliderImages.length - 1) {
+    current = -1;
+  }
+  sliderImages[++current].style.display = "block";
 };
 
 // Left arrow click
 arrowLeft.addEventListener("click", function () {
-  if (current === 0) {
-    current = sliderImages.length;
-  }
   slideLeft();
 });
 
 // Right arrow click
 arrowRight.addEventListener("click", function () {
-  if (current === sliderImages.length - 1) {
-    current = -1;
-  }
   slideRight();
 });
 

@@ -23,9 +23,11 @@ body,
 }
 
 .slide1 {
+  /* Photo credit: Photo by Chevanon Photography from Pexels */
   background-image: url(./img/coffee-image1.jpg);
 }
 .slide2 {
+  /* Photo credit: Photo by Chevanon Photography from Pexels */
   background-image: url(./img/coffee-image2.jpg);
 }
 .slide3 {
