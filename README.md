@@ -3,6 +3,9 @@
 [Traversy Media YouTube](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
 
 ## **Demos**
+UI Components
+- [HTML & CSS](./ui_components)
+
 Page Styling (HTML and CSS)
 - [Full screen Landing Page](./landing_page)
 - [Landing Page with Blur Effect](./landing_page_blur_effect)
