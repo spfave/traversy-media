@@ -6,10 +6,64 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login Landing Form</title>
+  <!-- Font Awesome, CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <section class="container">
+    <!-- Sign-In Form -->
+    <form action="">
+      <button class="btn btn-ghost">
+        <img src="./img/google.png" alt="google G icon">
+        Log in with Google
+      </button>
 
+      <small>or</small>
+
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Password">
+      </div>
+      <div class="checkbox-container">
+        <input type="checkbox" name="" id="remember">
+        <label for="remember">Remember me</label>
+
+        <a href="#">Forgot Password</a>
+      </div>
+
+      <button class="btn">Log In</button>
+
+      <small>Don't have an acount? <a href="#">Sign Up</a></small>
+    </form>
+
+    <!-- Features -->
+    <div class="features">
+      <div class="feature">
+        <i class="fas fa-code"></i>
+        <h3>Development</h3>
+        <p>A modern and clean design system for developing fast and powerful
+          web interfaces.</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-gift"></i>
+        <h3>Features</h3>
+        <p>A modern and clean design system for developing fast and powerful
+          web interfaces.</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-edit"></i>
+        <h3>Updates</h3>
+        <p>A modern and clean design system for developing fast and powerful
+          web interfaces.</p>
+      </div>
+    </div>
+  </section>
 </body>
 
 </html>
