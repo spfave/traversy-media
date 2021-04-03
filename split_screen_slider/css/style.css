@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+/* Image slider */
+#wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 55vw;
+  overflow: hidden;
+}
+
+.layer {
+  position: absolute;
+  width: 100vw;
+  min-height: 55vw;
+  overflow: hidden;
+}
+
+.layer .content-wrap {
+  position: absolute;
+  width: 100vw;
+  min-height: 55vw;
+}
+
+.layer .content-body {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25%;
+  color: #fff;
+  text-align: center;
+}
+
+.layer img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35%;
+}
+
+.layer h2 {
+  font-size: 2rem;
+}
+
+/* Bottom layer */
+.layer.bottom {
+  z-index: 1;
+  background-color: #222;
+}
+
+.bottom .content-body {
+  right: 5%;
+}
+
+.bottom h2 {
+  color: #fdab00;
+}
+
+.layer.top {
+  z-index: 2;
+  width: 50vw;
+  background-color: #eee;
+}
+
+.top .content-body {
+  left: 5%;
+  color: #222;
+}
+
+/* Handle */
+.handle {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 3;
+  height: 100%;
+  width: 5px;
+  background-color: #fdab00;
+}
+
+.skewed .handle {
+  top: 50%;
+  transform: rotate(30deg) translateY(-50%);
+  transform-origin: top;
+  height: 200%;
+}
+
+.skewed .top {
+  transform: skew(-30deg);
+  margin-left: -1000px;
+  width: calc(50vw + 1000px); /*Include space around math operators*/
+}
+
+.skewed .top .content-wrap {
+  transform: skew(30deg);
+  margin-left: 1000px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 75%;
+  }
+
+  .layer h2 {
+    font-size: 1.25rem;
+  }
+}
