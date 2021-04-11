@@ -9,7 +9,7 @@ Web Technologies
 - MTL5 audio API
 
 Connections
-<!-- - [Bootswatch Minty Theme](https://bootswatch.com/minty/)
-- [Font Awesome Icons](https://fontawesome.com/) -->
+[Font Awesome Icons](https://fontawesome.com/)
 
 ## **Project Demo**
+!["Gif of music player"](./img/demo-music-layer.gif)
