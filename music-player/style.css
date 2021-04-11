@@ -91,6 +91,10 @@ body {
   cursor: pointer;
 }
 
+.action-btn:hover {
+  color: #7e7780;
+}
+
 .action-btn:focus {
   outline: 0;
 }
