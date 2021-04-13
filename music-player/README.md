@@ -1,4 +1,4 @@
-# **JavaScript BookList App**
+# **Music Player**
 > [Youtube Walkthrough](https://www.youtube.com/watch?v=QTHRWGn_sJw&list=WL&index=2&t=111s)
 
 ## **Description**
