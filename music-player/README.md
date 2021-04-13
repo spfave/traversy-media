@@ -6,7 +6,7 @@ Create a music player with HTML, CSS, and vanilla JavaScript and the HTML5 audio
 
 Web Technologies
 - HTML5, CSS, and JavaScript
-- MTL5 audio API
+- HTML5 audio API
 
 Connections
 [Font Awesome Icons](https://fontawesome.com/)
