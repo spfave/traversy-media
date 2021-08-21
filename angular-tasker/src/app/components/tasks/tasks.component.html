@@ -1,4 +1,5 @@
-<!-- For loop in Angular -->
+<app-add-task (onAddTask)="addTask($event)"></app-add-task>
+<!-- Angular for loop, have access to 'task' inside -->
 <app-task
   *ngFor="let task of tasks"
   [task]="task"
