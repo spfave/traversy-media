@@ -1,2 +1,8 @@
 <!-- For loop in Angular -->
-<app-task *ngFor="let task of tasks" [task]="task"></app-task>
+<app-task
+  *ngFor="let task of tasks"
+  [task]="task"
+  (onDeleteTask)="deleteTask(task)"
+  (onToggleReminder)="toggleReminder(task)"
+>
+</app-task>
