@@ -22,6 +22,7 @@ Interaction (HTML, CSS, and JS)
 - [Split Screen Slider](./split_screen_slider)
 - [Music Player](./music-player)
 - [Filterable List](./filterable-list)
+- [Sortable List](.sortable-list)
 
 Front End
 - [Angular](./angular-tasker)

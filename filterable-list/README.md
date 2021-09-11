@@ -1,4 +1,4 @@
-# **JavaScript BookList App**
+# **Filterable List**
 > [Youtube Walkthrough](https://www.youtube.com/watch?v=G1eW3Oi6uoc&list=WL&index=2&t=77s)
 
 ## **Description**
